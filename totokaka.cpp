@@ -57,6 +57,7 @@ void totokaka::throwBall()
         {
             this->peopleContainer->at(i)->addBall(this->ballContainer.front());
             this->ballContainer.erase(this->ballContainer.begin());
+            return;
         }
     }
 }
