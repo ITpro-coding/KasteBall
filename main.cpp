@@ -41,7 +41,7 @@ int main()
 
     //Deler ut de tre ballene til noen av brukerne.
     R2d290->addBall(ball1);
-    R2d290->addBall(ball2);
+    Totokaka->addBall(ball2);
     skybert->addBall(ball3);
 
     //Kjører leken i det uendelige, eller til noen ødelegger.
