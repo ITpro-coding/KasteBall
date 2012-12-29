@@ -2,8 +2,8 @@
 #define SKYBERT_H
 #include <string>
 #include <vector>
-#include "Ball.h"
-#include "People.h"
+#include "../Ball.h"
+#include "../People.h"
 
 class Skybert : public People
 {

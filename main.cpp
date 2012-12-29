@@ -3,9 +3,9 @@
 //#include<windows.h>  //Denne må kanskje inkluderes for å få til sleep for windows.
 
 #include "People.h"
-#include "r2d290.h"
-#include "Skybert.h"
-#include "totokaka.h"
+#include "people/r2d290.h"
+#include "people/Skybert.h"
+#include "people/totokaka.h"
 #include "Ball.h"
 #include <unistd.h>
 

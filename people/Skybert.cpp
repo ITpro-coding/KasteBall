@@ -1,5 +1,5 @@
 #include "Skybert.h"
-#include "Ball.h"
+#include "../Ball.h"
 #include <iostream>
 
 Skybert::Skybert(std::string name, std::vector<People*> * container) :

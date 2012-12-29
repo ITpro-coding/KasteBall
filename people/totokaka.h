@@ -2,8 +2,8 @@
 #define TOTOKAKA_H
 #include <string>
 #include <vector>
-#include "Ball.h"
-#include "People.h"
+#include "../Ball.h"
+#include "../People.h"
 
 class totokaka : public People
 {

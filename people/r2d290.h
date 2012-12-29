@@ -2,8 +2,8 @@
 #define R2D290_H
 #include <string>
 #include <vector>
-#include "Ball.h"
-#include "People.h"
+#include "../Ball.h"
+#include "../People.h"
 
 class r2d290 : public People
 {

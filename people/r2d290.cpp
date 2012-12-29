@@ -1,5 +1,5 @@
 #include "r2d290.h"
-#include "Ball.h"
+#include "../Ball.h"
 #include <iostream>
 
 r2d290::r2d290( std::string name, std::vector<People*> * container )
