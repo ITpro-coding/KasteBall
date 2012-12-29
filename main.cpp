@@ -44,12 +44,19 @@ int main()
     Totokaka->addBall(ball2);
     skybert->addBall(ball3);
 
+    std::cout << R2d290->getName() << " has the " << ball1->getColor() << " ball." << std::endl;
+    std::cout << Totokaka->getName() << " has the " << ball2->getColor() << " ball." << std::endl;
+    std::cout << skybert->getName() << " has the " << ball3->getColor() << " ball." << std::endl;
+
+    std::cout << "*********************************" << std::endl << std::endl;
+
     //Kjører leken i det uendelige, eller til noen ødelegger.
     while(1)
     {
         for(int i = 0; i < peopleContainer.size(); i++)
         {
             peopleContainer[i]->action();
+            std::cout << std::endl << "---------------------------------" << std::endl << std::endl;
             usleep(1000000);
             //R2d290->action();
             //skybert->action();

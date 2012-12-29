@@ -18,10 +18,10 @@ void totokaka::addBall( Ball* ball )
 
 void totokaka::action()
 {
-    std::cout << "Det er " << this->name << "s tur" << std::endl;
+    std::cout << "Det er " << this->name << "'s tur" << std::endl;
     if (ballContainer.size() == 0)
     {
-        std::cout << this->name << " har ingen baller... \nZZZZzzzZ" << std::endl;
+        std::cout << this->name << " har ingen baller..." << std::endl << "Totokaka: ZZZZzzzZ" << std::endl;
     }
     else
     {
@@ -30,7 +30,6 @@ void totokaka::action()
         std::cout << this->name << " kaster den første ballen til første den første personen!" << std::endl;
         throwBall();
     }
-    std::cout << std::endl;
 }
 
 void totokaka::printBalls()

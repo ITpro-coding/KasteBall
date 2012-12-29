@@ -12,6 +12,7 @@ r2d290::r2d290( std::string name, std::vector<People*> * container )
 void r2d290::action()
 {
     printBalls();
+    std::cout << std::endl;
     throwBall();
 }
 
@@ -24,7 +25,7 @@ void r2d290::throwBall()
 {
     if( ballContainer.size()>0 )
     {
-        std::cout << name << " kaster " << ballContainer[0]->getColor() << std::endl << std::endl;
+        std::cout << name << " kaster " << ballContainer[0]->getColor() << std::endl;
         peopleContainer->at(1)->addBall( ballContainer[0] );
         ballContainer.erase( ballContainer.begin() );
     }

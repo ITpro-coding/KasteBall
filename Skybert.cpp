@@ -12,6 +12,7 @@ Skybert::Skybert(std::string name, std::vector<People*> * container) :
 void Skybert::action()
 {
     printBalls();
+    std::cout << std::endl;
     throwBall();
 }
 
@@ -54,6 +55,6 @@ void Skybert::printBalls()
         Ball* ball = ballContainer[i];
         std::cout << ball->getColor() << " ";
     }
-    std::cout << std::endl << std::endl;
+    std::cout << std::endl;
 
 }
