@@ -1,0 +1,5 @@
+# Code::Blocks #
+################
+*.depend
+bin/
+obj/
