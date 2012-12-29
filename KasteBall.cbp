@@ -23,7 +23,17 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Ball.cpp" />
+		<Unit filename="Ball.h" />
+		<Unit filename="People.cpp" />
+		<Unit filename="People.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="people/Skybert.cpp" />
+		<Unit filename="people/Skybert.h" />
+		<Unit filename="people/r2d290.cpp" />
+		<Unit filename="people/r2d290.h" />
+		<Unit filename="people/totokaka.cpp" />
+		<Unit filename="people/totokaka.h" />
 		<Extensions>
 			<envvars />
 			<code_completion />
